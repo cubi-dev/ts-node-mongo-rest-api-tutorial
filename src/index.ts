@@ -27,7 +27,7 @@ server.listen(8080, () => {
 
 // DB URL
 const MONGO_URL =
-  "mongodb+srv://cubiwork:cubiwork@cluster0.zficmto.mongodb.net/?retryWrites=true&w=majority";
+  "";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
